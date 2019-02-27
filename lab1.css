@@ -139,7 +139,7 @@ footer h5{
 }
 
 
-@media only screen and (min-width: 320px){
+@media only screen and (max-width: 320px){
 
 }
 @media only screen and (max-width: 640px){
@@ -208,23 +208,30 @@ footer h5{
         padding: 40% 0;
     }
 
+    .footer-text{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+
     footer h5{
         margin: 5px;
-        font-size: 4vw;
+        font-size: 20px;
         text-align: center;
     }
 
     .footer-text-item{
+        width: 80%;
         font-size: 16px;
-        width: 100%;
     }
 
 
 }
-@media only screen and (min-width: 980px){
+@media only screen and (max-width: 980px){
     
 }
-@media only screen and (min-width: 1024px){
+@media only screen and (max-width: 1024px){
 
 
 }
